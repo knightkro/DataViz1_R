@@ -1,5 +1,7 @@
 # titanic is avaliable in your workspace
-
+titanic_csv <- read.csv('titanic.csv')
+library("dplyr")
+titanic <-data.frame(titanic_csv)
 # Check out the structure of titanic
 str(titanic)
 
